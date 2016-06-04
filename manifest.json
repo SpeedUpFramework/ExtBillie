@@ -1,0 +1,23 @@
+{
+  "name": "Billiechou",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Impossible de louper mes lives avec ça !",
+   "background": {
+      "scripts": [ "scripts/jquery.js", "scripts/parameters.js", "scripts/background.js", "scripts/chrome.js" ]
+   },
+   "icons": {
+     "128": "images/logo.jpg",
+     "256": "images/logo.jpg",
+     "32": "images/logo.jpg",
+     "64": "images/logo.jpg"
+  },
+   "browser_action": {
+      "default_icon": "images/off.png",
+      "default_popup": "popup.html",
+      "default_title": "Pixelle - Offline"
+   },
+   "description": "Impossible de louper un de mes lives avec ça !",
+  "permissions":  [ "https://api.twitch.tv/", "notifications" ]
+
+}
