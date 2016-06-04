@@ -15,7 +15,7 @@
    "browser_action": {
       "default_icon": "images/off.png",
       "default_popup": "popup.html",
-      "default_title": "Pixelle - Offline"
+      "default_title": "Billiechou - Offline"
    },
    "description": "Impossible de louper un de mes lives avec ça !",
   "permissions":  [ "https://api.twitch.tv/", "notifications" ]
